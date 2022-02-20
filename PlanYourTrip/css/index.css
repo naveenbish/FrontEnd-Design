@@ -1,8 +1,8 @@
-.navbar-wrapper {
-  position: relative;
-  z-index: 15;
+*{
+  margin: 0px;
+  padding: 0PX;
+  box-sizing: border-box;
 }
-
 .middle-part {
   display: flex;
 }
@@ -33,4 +33,17 @@
 
 .text-size-sm {
   font-size: 20px;
+}
+
+.aboutUs{
+  padding: 30px;
+
+}
+
+.aboutUs h2{
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
 }

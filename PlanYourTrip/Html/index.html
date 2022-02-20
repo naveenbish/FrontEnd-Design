@@ -18,6 +18,62 @@
     <title>PlanYourTrip</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+      <div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-secondary" href="#">PlanYourTrip</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Hotels</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Packages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Trafalgar</a>
+              <a class="dropdown-item" href="#">Contiki</a>
+              <a class="dropdown-item" href="#">Club med</a>
+              <a class="dropdown-item" href="#">Cruiseas</a>
+            </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Locations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Maldives</a>
+                <a class="dropdown-item" href="#">Malaysia</a>
+                <a class="dropdown-item" href="#">Thailand</a>
+                <a class="dropdown-item" href="#">Singapore</a>
+                <a class="dropdown-item" href="#">Egypt</a>
+                <a class="dropdown-item" href="#">Maxico</a>
+                <a class="dropdown-item" href="#">Brazil</a>
+                <a class="dropdown-item" href="#">America</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Aboutus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contactus</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button type="button" class="btn btn-warning">Log In</button>
+        <button type="button" class="btn btn-warning">Sign Up</button>
+      </div> 
+    </nav>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       
       <ol class="carousel-indicators">
@@ -30,15 +86,13 @@
           <img src="../Images/1.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-size-big">Brazil.</h5>
-            <p class="text-size-sm">The beaches of brazil continue to be some of this South American country's most coveted,longed-for tourist attractions.</p>
-            <button type="button" class="btn btn-warning">Sign Up Today</button>
+              
           </div>
         </div>
         <div class="carousel-item">
           <img src="../Images/2.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-size-big">Mexico.</h5>
-            <p class="text-size-sm">One of the World's great civilization,Mexico  is a melange of Mesoamerican cultures and modern indigenous tribes, Spanish traditions and a vibrant modern economy, the biggest in Latin American after Brazil.</p>
             <button type="button" class="btn btn-warning">Learn more</button>
           </div>
         </div>
@@ -47,60 +101,9 @@
           <img src="../Images/3.jpeg" class="d-block w-100" alt="Image3">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="text-size-big">Aches National Park USA</h5>
-            <p class="text-size-sm">Located just 5 miles (8km) north of Moab is Arches National Park, Which containes the world's largest concentration of natural sandstones arches.</p>
             <button type="button" class="btn btn-warning">Browse Gallery</button>
           </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded navbar-wraper" style="margin: 10px 100px;">
-          <a class="navbar-brand text-secondary" href="#">PlanYourTrip</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Flights</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Hotels</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Packages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Trafalgar</a>
-                  <a class="dropdown-item" href="#">Contiki</a>
-                  <a class="dropdown-item" href="#">Club med</a>
-                  <a class="dropdown-item" href="#">Cruiseas</a>
-                </div>
-                <li class="nav-item dropdown">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Locations
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Maldives</a>
-                    <a class="dropdown-item" href="#">Malaysia</a>
-                    <a class="dropdown-item" href="#">Thailand</a>
-                    <a class="dropdown-item" href="#">Singapore</a>
-                    <a class="dropdown-item" href="#">Egypt</a>
-                    <a class="dropdown-item" href="#">Maxico</a>
-                    <a class="dropdown-item" href="#">Brazil</a>
-                    <a class="dropdown-item" href="#">America</a>
-                  </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Aboutus</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contactus</a>
-              </li>
-            </ul>
-          </div> 
-        </nav>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -118,7 +121,7 @@
           <img src="../Images/circle1.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" >
             <rect width="100%" height="100%"></rect></img>
           <h2>Brazil</h2>
-          <div class="left"">
+          <div class="left text-center">
             <p>Bounded by the Atlantic Ocean on the east, Brazil has a coastline of 7,491 kilometers (4,655 mi).It borders all other countries in South America except Ecuador and Chile and covers 47.3% of the continent's land area.Its Amazon basin includes a vast tropical forest, home to diverse wildlife.</p>
             <p class="center"><a class="btn btn-outline-secondary" href="#" role="button">View details »</a></p></div>
         </div>
@@ -126,25 +129,26 @@
           <img src="../Images/circle2.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" >
             <rect width="100%" height="100%"></rect></img>
           <h2>Mexico</h2>
-          <div class="left"">
+          <div class="left text-center">
             <p>Mexico (Spanish: México [ˈmexiko] (About this soundlisten); Nahuan languages: Mēxihco), officially the United Mexican States (Spanish: Estados Unidos Mexicanos; EUM [esˈtaðos uˈniðoz mexiˈkanos] (About this soundlisten)), is a country in the southern portion of North America.</p>
             <p class="center"><a class="btn btn-outline-secondary" href="#" role="button">View details »</a></p></div>
         </div><div class="col-lg-4 center">
           <img src="../Images/circle3.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" >
             <rect width="100%" height="100%"></rect></img>
           <h2>Usa</h2>
-          <div class="left"">
+          <div class="left text-center">
             <p>The United States of America (USA), commonly known as the United States (US or U.S.) or America, is a country whose mainland is located in central North America, between Canada and Mexico. It consists of 50 states, a federal district, five major self-governing territories, and various possessions.</p>
-            <p class="center"><a class="btn btn-outline-secondary" href="#" role="button">View details »</a></p></div>
+            <p class="center"><a class="btn btn-outline-secondary" href="#" role="button">
+              View details ></a></p></div>
         </div>
       </div>
     </div>
-    <section class="mid-padding-2">
+    <section class="aboutUs">
       <div>
-      <h2 id="Aboutus">AboutUs</h2>
-          <div class="left"">
+      <h2>AboutUs</h2>
+          <div class="left text-center">
             <p>PlanUrTrip India's emerging online travel company was founded in the year 2012.Created to emprove the traveller with instant booking and comprehensive choices, the company began its journey in the US-INDIA Travel market.It aimed to offer a range of best-value products and services along with cutting-edge technology and dedicated round-the-clock customer support.<br>
-              <a class="btn btn-outline-secondary" href="#" role="button">View details »</a>
+              <a class="btn btn-outline-secondary" href="#" role="button" style="margin-top: 10px;">View details »</a>
             </p></div>
         </div>
     </section>
