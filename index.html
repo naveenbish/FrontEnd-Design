@@ -6,10 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
-  
-  <title>Frontend Mentor | Easybank landing page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <title>Easybank landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -18,6 +18,11 @@
 <body>
 <!-- Header Started -->
     <div class="header">
+        <div class="menu-icon">
+          <a href="javascript:void(0);" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
         <div class="logo">
             <img src="../images/logo.svg" alt="">
         </div>
@@ -32,13 +37,18 @@
             <div><a href="">Request Invite</a></div>
         </div>
     </div>
-<!-- Header Finished -->
-
-<!-- Body Started -->
-    
-  <!-- mainBody starts -->
   
   <div class="mainBody">
+  
+  <div id="myLinks">
+    <div class="header-menu">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Blog</a>
+      <a href="">Careers</a>
+    </div>
+  </div>
       
       <!-- section One -->
       <div class="sectionOne">
@@ -259,6 +269,15 @@
       </div>
 
   </div>
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </body>
 </html>
