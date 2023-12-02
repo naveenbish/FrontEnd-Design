@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Public+Sans:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Nova+Square&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 body{
@@ -14,32 +17,45 @@ a{
     text-decoration: none;
 }
 
-.header{
-    display: flex;
-    margin: 10px;
+h2{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 40px;
 }
 
-.logo{
-    margin-right: 30rem;
+p{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.header-tabs{
+    font-family: 'Nova Square', sans-serif;
+    display: flex;
+    gap: 12px;
+    font-weight: bolder;
 }
 
 .header-tabs a{
-    margin-left: 5px;
-    font-size: 15px;
+    border-bottom: 4px solid white;
+    padding-bottom: 3px;
 }
 
 .header-tabs a:hover{
     border-bottom: 4px solid limegreen;
-    padding-bottom: 15px;
+    padding-bottom: 3px;
 }
 
 .button-ri { 
-    margin-left: 27rem;   
     height: 20px;
     width: 115px;
     padding: 7px;
-    padding-left: 25px;
-    padding-right: 25px;
     border-radius: 30px;
     background-image: linear-gradient(to right, limegreen, cyan);
 }
@@ -60,7 +76,7 @@ a{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: wheat;
-    height: 25rem;
+    min-height: 300px;
 }
 
 .partOne1{
